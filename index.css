@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+
+}
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
+.Background{
+    background-color: White;
+    height: 100vh;
+    width: 100vw;
+}
+
+.upperbars{
+    background-color: black;
+    height:25px;
+    z-index: 4;
+    position: relative;
+}
+
+.upperbars2{
+    background-color: cornflowerblue;
+    z-index: 0;
+    height: 40px;
+    position: relative;
+
+}
+
+.logo img{
+    height:35px;
+    width: 100px;
+    position: relative;
+    top: 1.5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+form.example{
+    position: relative;
+    bottom: 30px;
+    left: 442px;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 700px;
+    height: 25px;
+    background-color: white;
+    border-radius: 4px;
+    border-color: white;
+  }
+  
+
+  form.example button {
+ 
+    width: 21px;
+    height: 25px;
+    background: #2196F3;
+    color: white;
+    font-size: 10px;
+    border: 1px solid grey;
+
+    cursor: pointer;
+    position: relative;
+    bottom: 2px;
+    border-color: white;
+    border-radius: 3px;
+    
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+
+  .login {
+      height: 30px;
+      width: 123px;
+      background-color: rgb(255, 123, 0);;
+     
+      border-radius: 4px;
+    border: white;
+     position: relative;
+     bottom: 61px;
+     left: 1750px;
+     font-weight: bold;
+     cursor: pointer;
+  }
+
+  .login a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .contentLeft{
+      display: flex;
+    flex-direction: column;
+    margin: 100px;
+ 
+  }
+.sidebox{
+    position: relative;
+    bottom: 650px;
+    left: 50px;
+}
+.history{
+    width: 300px;
+    height: 100px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 20px;
+    position: relative;
+    bottom: 455px;
+}
+  .history h2{
+      color: rgb(255, 123, 0);
+    border-color: black;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+  .history p{
+  position: relative;
+  top: 5px;
+  font-weight: bold;
+  color: grey;
+  }
+
+ 
+
+  .signup{
+    width: 300px;
+    height: 100px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 20px;
+    position: relative;
+    bottom: 455px;
+  }
+
+  .signup h2{
+    color: rgb(255, 123, 0);
+    border-color: black;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+  .signup p{
+    position: relative;
+    top: 5px;
+    font-weight: bold;
+    color: grey;
+    }
+
+
+    .post{
+        width: 750px;
+        height: 100px;
+  
+        border-radius: 1px;
+        
+       position: relative;
+     left: 345px;
+     padding: 10px;
+     border-radius: 5px;
+     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        
+    }
+
+    .post h2{
+        color: rgb(255, 123, 0);;
+    }
+
+    .post input{
+        height: 50px;
+        width: 650px;
+        /* color: grey; */
+        background-color: rgb(235, 235, 235);
+        border: none;
+        border-radius: 5px;
+      
+
+       
+    }
+    .post button{
+        position: relative;
+        top: 13px;
+        width: 75px;
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(45, 45, 243);
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+
+    /* Comment box*/
+
+
+.container{
+    position: relative;
+    bottom: 68px;
+    left: 442px;
+    
+    width: 1000px;
+
+    
+}
+.container img{
+    height: 300px;
+    width: 450px;
+}
+
+.col-md-8{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+    @media (min-width: 0) {
+        .g-mr-15 {
+            margin-right: 1.07143rem !important;
+        }
+    }
+    @media (min-width: 0){
+        .g-mt-3 {
+            margin-top: 0.21429rem !important;
+        }
+    }
+    
+    .g-height-50 {
+        height: 50px;
+    }
+    
+    .g-width-50 {
+        width: 50px !important;
+    }
+    
+    @media (min-width: 0){
+        .g-pa-30 {
+            padding: 2.14286rem !important;
+        }
+    }
+    
+    .g-bg-secondary {
+        background-color: #fafafa !important;
+    }
+    
+    .u-shadow-v18 {
+        box-shadow: 0 5px 10px -6px rgba(0, 0, 0, 0.15);
+    }
+    
+    .g-color-gray-dark-v4 {
+        color: #777 !important;
+    }
+    
+    .g-font-size-12 {
+        font-size: 0.85714rem !important;
+    }
+    
+    .media-comment {
+        margin-top:20px
+    }
+
+
+    /*Login*/
+    
