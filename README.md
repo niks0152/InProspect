@@ -1,1 +1,1 @@
-# InProspect
+# InProspect Project
